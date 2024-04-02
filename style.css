@@ -1,0 +1,386 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+
+h2{
+  font-weight: normal;
+}
+
+body {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+}
+
+.nom_du_site .fa-solid {
+  color: #f1c40f;
+  margin-left: 20px;
+}
+
+.fa-solid {
+  color: black;
+  font-size: 20px;
+  margin-left: 5px;
+}
+
+.tourne {
+  rotate: 180deg;
+}
+
+.navbar {
+  height: 90px;
+  background-color: #333333;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+  padding: 15px;
+  font-size: 16px;
+}
+
+.navbar .nom_du_site a {
+  font-size: 30px;
+  font-family: "Long Cang", cursive;
+}
+
+.navigation {
+  display: flex;
+  margin-left: auto;
+  margin-right: 45px;
+}
+
+.navigation a {
+  font-family: "Montserrat", sans-serif;
+}
+
+.navbar .navigation ul {
+  display: flex;
+  list-style: none;
+}
+
+.navbar .navigation ul li {
+  color: white;
+  margin-right: 15px;
+}
+
+.header {
+  width: 100%;
+  height: 900px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(/img/frame.webp);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.parag {
+  width: 680px;
+  height: 340px;
+  color: white;
+  text-align: center;
+}
+
+#titre {
+  font-size: 40px;
+  font-weight: bolder;
+}
+
+.parag p span {
+  font-size: 40px;
+  color: #f1c40f;
+  font-weight: normal;
+}
+
+span {
+  color: #f1c40f;
+}
+
+.parag p {
+  font-size: 20px;
+}
+
+section {
+  background-color: #eeeeee;
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 130px;
+}
+
+.container {
+  width: 1160px;
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.titre_section {
+  width: 100%;
+  height: 50px;
+}
+
+.ville {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 70px 0 0 0;
+}
+
+.item {
+  width: 365px;
+  height: 450px;
+  background-color: white;
+}
+
+.photo_ville {
+  width: 100%;
+  height: 230px;
+}
+
+.new_york {
+  background-image: url(/img/ny.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.rome {
+  background-image: url(/img/roma.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.sidney {
+  background-image: url(/img/sidney.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.info_ville {
+  width: 100%;
+  height: 220px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.info_ville p {
+  margin: 15px;
+}
+
+.separator {
+  width: 45px;
+  height: 2px;
+  background-color: black;
+}
+
+/*Photo + article*/
+
+.article_professionel {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.photo_professionnel {
+  width: 50%;
+  height: 600px;
+  background-image: url(/img/guide.webp);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.texte_professionnel {
+  width: 50%;
+  height: 600px;
+  background-color: #333333;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 60px;
+}
+
+#titre2 {
+  font-size: 18px;
+  flex-wrap: wrap;
+}
+
+.texte p {
+  width: 100%;
+  padding: 0px 65px 0px 65px;
+}
+
+.texte p span {
+  color: #f1c40f;
+}
+
+/* Espace commentaire */
+
+.commentaires {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  background-color: #eeeeee;
+}
+
+.container_commentaire {
+  width: 80%;
+  height: auto;
+  padding: 15px;
+}
+
+.titre_com {
+  font-size: 20px;
+  padding: 50px 0 50px 0;
+}
+
+.comgauche {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 15px;
+  background-color: white;
+}
+
+.avis {
+  width: 93%;
+  height: 215px;
+  display: flex;
+  align-items: center;
+  padding: 0 60px 0 60px;
+}
+
+.bloc_profil {
+  width: 7%;
+  height: 215px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.photo_profil img {
+  border-radius: 100px;
+  width: 45px;
+}
+
+.photo_profil {
+  width: 100%;
+  height: 50%;
+  display: flex;
+  align-items: center;
+}
+
+.gauche{
+  padding-left: 20px;
+}
+
+.info_profil {
+  width: 100%;
+  height: 50%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+
+
+
+/* Contact et formulaire */
+
+.contact {
+  width: 100%;
+  height: 800px;
+  background-color: #333333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.formulaire {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  width: 30%;
+}
+
+.formulaire p {
+  font-size: 25px;
+  margin-bottom: 70px;
+}
+
+.formulaire span {
+  color: #f1c40f;
+}
+
+.button {
+  text-align: center;
+  color: white;
+  text-decoration: none;
+  background-color: #f1c40f;
+  border-radius: 50px;
+  font-size: 20px;
+  border: none;
+  width: 150px;
+  margin-top: 60px;
+  padding: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.button:hover {
+  background-color: #e9d587;
+}
+
+input {
+  border: none;
+  border-bottom: 1px solid #9d9d9d;
+  background-color: transparent;
+  font-size: 16px;
+  margin-top: 20px;
+  padding: 15px;
+}
+
+textarea{
+  border:none;
+  border: none;
+  border-bottom: 1px solid #9d9d9d;
+  background-color: transparent;
+  font-size: 16px;
+  margin-top: 20px;
+  padding: 15px;
+}
+
+
+::placeholder {
+  color: #9d9d9d;
+}
+
+.footer {
+  width: 100%;
+  height: 180px;
+  background-color: #444444;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
